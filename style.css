@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #ff7f7f, #ffcccb); /* Gradient background */
+}
+
+.container {
+    text-align: center;
+    background: linear-gradient(to right, #ff4d4d, #ff99cc); /* Gradient container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#attempts {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
